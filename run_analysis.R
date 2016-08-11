@@ -1,6 +1,7 @@
 #load packages
 library("tidyr")
 library("reshape2")
+library("data.table")
 
 #read activity labels
 activity.labels=read.table("activity_labels.txt")[,2]
